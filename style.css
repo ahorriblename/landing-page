@@ -4,6 +4,15 @@ body {
 
 .header {
   background-color:rgb(10, 5, 65);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.links {
+  display: flex;
+  margin-right: 150px;
+  gap: 20px;
 }
 
 .description {
@@ -41,4 +50,5 @@ button {
 .footer {
   background-color: rgb(10, 5, 65);
   color: white;
+  display: flex;
 }
