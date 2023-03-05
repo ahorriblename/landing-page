@@ -5,8 +5,9 @@ body {
 .header {
   background-color:rgb(10, 5, 65);
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
+  margin-bottom: 50px;
 }
 
 .links {
@@ -19,6 +20,9 @@ body {
   background-color:rgb(10, 5, 65);
   margin-top: -30px;
   color: white;
+  display: flex;
+  flex: auto;
+  justify-content: space-around;
 }
 
 .quote {
@@ -36,7 +40,9 @@ button {
   border: 2px solid white;
   color: white;
   width: 80px;
+  height: 30px;
   border-radius: 5px;
+  padding: 5px;
 }
 
 .ad {
