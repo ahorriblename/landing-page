@@ -12,7 +12,33 @@ body {
   color: white;
 }
 
+.quote {
+  background-color:rgb(230, 230, 230);
+}
+
 a {
   text-decoration: none;
+  color: white;
+}
+
+
+button {
+  background-color: rgb(58, 109, 247);
+  border: 2px solid white;
+  color: white;
+  width: 80px;
+  border-radius: 5px;
+}
+
+.ad {
+  color: white;
+}
+
+.content {
+  background-color: rgb(58, 109, 247);
+}
+
+.footer {
+  background-color: rgb(10, 5, 65);
   color: white;
 }
