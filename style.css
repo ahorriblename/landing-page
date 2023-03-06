@@ -2,8 +2,12 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+.first {
+  background-color: #1f2937;
+}
+
 .header {
-  background-color:rgb(10, 5, 65);
+  background-color: #1f2937;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -17,26 +21,48 @@ body {
 }
 
 .description {
-  background-color:rgb(10, 5, 65);
+  background-color: #1f2937;
   margin-top: -30px;
-  color: white;
+  color: #e5e7eb;
   display: flex;
   flex: auto;
   justify-content: space-around;
 }
 
+#header1 {
+  font-size: 48px;
+  color: #f9faf8;
+}
+
+#header2 {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+}
+
 .quote {
-  background-color:rgb(230, 230, 230);
+  background-color: #e5e7eb;
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+  font-weight: lighter;
+}
+
+#cite {
+  font-weight: bold;
+  font-style: normal;
+  font-size: 25px;
 }
 
 a {
   text-decoration: none;
-  color: white;
+  color: #e5e7eb;
+  font-size: 18px;
 }
 
 
 button {
-  background-color: rgb(58, 109, 247);
+  background-color: #3882f6;
   border: 2px solid white;
   color: white;
   width: 80px;
@@ -50,11 +76,11 @@ button {
 }
 
 .content {
-  background-color: rgb(58, 109, 247);
+  background-color: #3882f6;
 }
 
 .footer {
-  background-color: rgb(10, 5, 65);
+  background-color: #1f2937;
   color: white;
   display: flex;
 }
