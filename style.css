@@ -27,6 +27,13 @@ body {
   display: flex;
   flex: auto;
   justify-content: space-around;
+  align-items: center;
+  padding-bottom: 100px;
+}
+
+.onecontent {
+  width: 400px;
+  height: auto;
 }
 
 #header1 {
