@@ -80,12 +80,18 @@ body {
   font-style: italic;
   color: #1f2937;
   font-weight: lighter;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 80px;
 }
 
 #cite {
   font-weight: bold;
   font-style: normal;
   font-size: 25px;
+  text-align: right;
 }
 
 a {
