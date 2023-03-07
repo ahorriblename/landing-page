@@ -36,6 +36,28 @@ body {
   height: auto;
 }
 
+.info {
+  display: flex;
+  flex: auto;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 100px;
+}
+
+.new {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 #header1 {
   font-size: 48px;
   color: #f9faf8;
@@ -45,6 +67,11 @@ body {
   font-size: 36px;
   font-weight: bolder;
   color: #1f2937;
+}
+
+.imagetext {
+  width: 130px;
+  text-align: center;
 }
 
 .quote {
